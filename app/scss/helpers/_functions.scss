@@ -1,0 +1,15 @@
+@use 'sass:math';
+// ======= FLUID FONT SIZE ======= //
+@function fluidfs($f-min, $f-max) {
+    // ========= SET VALUE HERE > ========= //
+  $k: math.div($f-max - $f-min, __Value__ - 320);
+  $b: $f-min - math.floor($k) * 320;
+
+  $b: $b * 1px;
+
+  @return calc( #{$k} * 100vw + #{$b} );
+}
+
+// .fluid-font-size {
+//   font-size: fluidfs(16, 48, 480, 1280);
+// }

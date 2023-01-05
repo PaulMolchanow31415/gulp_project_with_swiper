@@ -1,0 +1,14 @@
+// ====== COLORS ======= //
+$white: #fff;
+$secondaryWhite: rgba(255, 255, 255, 0.5);
+$dark: #0F1F1C;
+$secondaryDark: rgba(15, 31, 28, 0.5);
+$accent: #FF794E;
+$accentGradient: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+$gradient: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.4%);
+
+// ====== ROOT ======= //
+:root{
+    --container-width: 1270px;
+    --container-padding: 15px;
+}
